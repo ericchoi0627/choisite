@@ -1,3 +1,11 @@
+.container {
+    z-index: -100;
+	display: block;
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	background: url("view1.jpeg");
+}
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:500|Roboto:100,300');
 :root{
