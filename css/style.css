@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:500|Roboto:100,300');
+:root{
+    --headerFont: 'Oswald';
+    --mainFont: 'Roboto';
+    --black: #000;
+    --white: #CCC;
+    --whiter: #FFF;
+    --mainColor: #ff2b00;
+    --color1: #000;
+    --color2: #CCC;
+    --color3: #000;
+    --color4: #CCC;
+}
+
+
+
+h1, h2, h3{
+    font-family: var(--headerFont);
+    padding:0;
+    margin:0;
+    line-height: .9;
+}
+
+h1{
+    font-size: 6em;
+}
+
+h2{
+    font-size: 4em;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-family: 'Roboto';
+    font-size: 1.3em;
+}
+
+#block1 h1{
+    color: var(--whiteish);
+}
+
+#superEmph{
+    text-shadow: -2px 0 var(--mainColor),  
+    2px -2px 0 var(--mainColor),
+    -2px 2px 0 var(--mainColor),
+     2px 2px 0 var(--mainColor);
+}
+
+html body {
+    padding:0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Roboto';
+	font-weight: 100;
+	padding: 0;
+	margin: 0;
+    overflow: auto;
+}
+
+
+#block1{
+    background: var(--color1);
+    color:var(--whiteish);
+    font-weight: 100;
+    padding: 5%;
+}
+
+#responsiveBlock{
+    margin: 0 auto;
+    max-width: 800px;
+    color: var(--white);
+}
+
+
+
+#navbar {
+    background-color: var(--black);
+    z-index: 10;
+    display: flex;
+    position: sticky;
+    top: -1px;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 2%;
+}
+
+#navbar a{
+    text-decoration: none;
+    color: #CCC;
+    transition: .5s;
+    font-size: 1.8em;
+}
+
+#navbar a:hover{
+    transition: .3s;
+    color: var(--mainColor);
+}
+
+#responsiveBulk{
+    min-width: 500px;
+    max-width: 800px;
+    width: 80%;
+    padding: 2% 2% 2% 2%;
+}
+
+b{
+    font-weight: 300;
+}
+
+#block2{
+    background: var(--color2);
+    color: var(--black);
+    padding: 5%;
+}
+#block2 h2, #block2 p{
+    color: var(--black);
+}
+
+#block3{
+    background: var(--color3);
+    color: var(--black);
+    padding: 5%;
+}
+
+
+
+
+#qa{
+    display: flex;
+    vertical-align: bottom;
+    flex-wrap: wrap;
+    text-align: left;
+    background-color: var(--white);
+    margin-bottom: .5%;
+    padding: 2%;
+    margin-top: 5%;
+}
+
+#qa #question{
+    max-width: 39.5%;
+    padding-right: .5%;
+    min-width: 200px;
+    color: var(--black);
+    font-family: var(--headerFont);
+}
+
+#qa *{
+    min-width: 200px;
+    width: 60%;
+}
+
+@media only screen and (max-width: 580px){
+    #qa *{
+        width: 100%;
+    }
+    #qa question{
+        width: 100%;
+    }
+}
+
+
+#qa #answer{
+    font-size: 1.5em;
+    color: var(--black);
+}
+
+#link{
+    transition: .5s;
+    color: var(--color1);
+}
+
+#link:hover{
+    transition: .3s;
+    color: var(--color3);
+    font-weight: 300;
+}
+
+#block4{
+    background: var(--color4);
+    color: var(--black);
+    padding: 5%;
+}
+
+#block4 h2, #block4 p, #block4 h3{
+    color: var(--black);
+}
+
+#block4 h2{
+    text-align: center;
+}
+
+#block4 a{
+    color: var(--whiter);
+    transition: .5s;
+    background: var(--color1);
+    border: .5vh solid var(--color2);
+    width: 100%;
+    display: table;
+    margin-bottom: 2%;
+}
+
+#block4 a:hover{
+    transition: .3s;
+    border: .5vh solid var(--color2);
+    background: var(--whiter);
+    color: var(--color2);
+}
