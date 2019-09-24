@@ -1,2 +1,6 @@
 # choisite
-Eric Choi website
+Eric Gyu Min Choi website
+
+Welcome!
+
+Eric
