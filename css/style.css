@@ -13,6 +13,11 @@
     --color4: #CCC;
 }
 
+html {
+    color: white;
+    padding: 2px;
+}
+
 .Loader
 {
 	position: absolute;
