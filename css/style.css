@@ -13,9 +13,36 @@
     --color4: #CCC;
 }
 
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #454545;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: grey;
+}
+
 html {
     color: white;
-    padding: 2px;
+    overflow-x: visible;
+    overflow-y: scroll;
+}
+
+.bg-light{
+    background-color: grey;
+}
+
+main {
+    padding-left: 15px;
 }
 
 .Loader
@@ -245,4 +272,12 @@ b{
     border: .5vh solid var(--color2);
     background: var(--whiter);
     color: var(--color2);
+}
+
+.row {
+    display: inline;
+}
+
+.row img{
+    height: 300;
 }
