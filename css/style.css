@@ -431,6 +431,9 @@
     position: relative;
     display: block;
     font-size: 0; }
+.single-book .single-book__img .imagess{
+    width: 243px;
+}
     .single-book .single-book__img .single-book_download {
       opacity: 0;
       visibility: hidden;
