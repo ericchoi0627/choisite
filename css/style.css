@@ -102,7 +102,7 @@ p{
 }
 
 #superEmph{
-    text-shadow: -2px 0 var(--mainColor),  
+    text-shadow: -2px 0 var(--mainColor),
     2px -2px 0 var(--mainColor),
     -2px 2px 0 var(--mainColor),
      2px 2px 0 var(--mainColor);
@@ -137,7 +137,9 @@ body {
     color: var(--white);
 }
 
-
+nav {
+    height: 200px;
+}
 
 #navbar {
     background-color: var(--black);
@@ -145,7 +147,7 @@ body {
     display: flex;
     position: sticky;
     top: -1px;
-    
+
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
